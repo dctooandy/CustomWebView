@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A14A059A1F57E5F4009E8F4F /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05931F57E5F4009E8F4F /* FirebaseAnalytics.framework */; };
+		A14A059B1F57E5F4009E8F4F /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05941F57E5F4009E8F4F /* FirebaseCore.framework */; };
+		A14A059C1F57E5F4009E8F4F /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05951F57E5F4009E8F4F /* FirebaseCoreDiagnostics.framework */; };
+		A14A059D1F57E5F4009E8F4F /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05961F57E5F4009E8F4F /* FirebaseInstanceID.framework */; };
+		A14A059E1F57E5F4009E8F4F /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05971F57E5F4009E8F4F /* FirebaseNanoPB.framework */; };
+		A14A059F1F57E5F4009E8F4F /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05981F57E5F4009E8F4F /* GoogleToolboxForMac.framework */; };
+		A14A05A01F57E5F4009E8F4F /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05991F57E5F4009E8F4F /* nanopb.framework */; };
+		A14A05A21F57E709009E8F4F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05A11F57E709009E8F4F /* CFNetwork.framework */; };
+		A14A05A41F57E711009E8F4F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05A31F57E711009E8F4F /* Security.framework */; };
+		A14A05A61F57E719009E8F4F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05A51F57E719009E8F4F /* SystemConfiguration.framework */; };
+		A14A05A81F57E725009E8F4F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05A71F57E725009E8F4F /* libc++.tbd */; };
+		A14A05AA1F57E72E009E8F4F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05A91F57E72E009E8F4F /* libsqlite3.tbd */; };
+		A14A05AF1F57EB8A009E8F4F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A14A05AE1F57EB8A009E8F4F /* GoogleService-Info.plist */; };
+		A14A05B31F57ECAF009E8F4F /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05B11F57ECAF009E8F4F /* FirebaseMessaging.framework */; };
+		A14A05B41F57ECAF009E8F4F /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05B21F57ECAF009E8F4F /* Protobuf.framework */; };
+		A14A05D21F58F993009E8F4F /* customwebview-85cbe-firebase-crashreporting-qs4lf-ab0a2b4f91.json in Resources */ = {isa = PBXBuildFile; fileRef = A14A05D11F58F993009E8F4F /* customwebview-85cbe-firebase-crashreporting-qs4lf-ab0a2b4f91.json */; };
+		A14A05ED1F58FA8F009E8F4F /* batch-upload in Resources */ = {isa = PBXBuildFile; fileRef = A14A05E51F58FA8F009E8F4F /* batch-upload */; };
+		A14A05EF1F58FA8F009E8F4F /* extract-keys in Resources */ = {isa = PBXBuildFile; fileRef = A14A05E71F58FA8F009E8F4F /* extract-keys */; };
+		A14A05F01F58FA8F009E8F4F /* FirebaseCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05E81F58FA8F009E8F4F /* FirebaseCrash.framework */; };
+		A14A05F11F58FA8F009E8F4F /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A05E91F58FA8F009E8F4F /* Protobuf.framework */; };
+		A14A05F21F58FA8F009E8F4F /* upload-sym in Resources */ = {isa = PBXBuildFile; fileRef = A14A05EA1F58FA8F009E8F4F /* upload-sym */; };
+		A14A05F31F58FA8F009E8F4F /* upload-sym-util.bash in Resources */ = {isa = PBXBuildFile; fileRef = A14A05EB1F58FA8F009E8F4F /* upload-sym-util.bash */; };
+		A14A05F41F58FA8F009E8F4F /* upload-sym.sh in Resources */ = {isa = PBXBuildFile; fileRef = A14A05EC1F58FA8F009E8F4F /* upload-sym.sh */; };
+		A15BDA6A1F42EF1000786D57 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A15BDA681F42EF1000786D57 /* TableViewController.m */; };
+		A15BDA6B1F42EF1000786D57 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15BDA691F42EF1000786D57 /* TableViewController.xib */; };
+		A15BDA6D1F457F8100786D57 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15BDA6C1F457F8100786D57 /* WebKit.framework */; };
+		A15BDA781F46D35A00786D57 /* hide.png in Resources */ = {isa = PBXBuildFile; fileRef = A15BDA721F46D35A00786D57 /* hide.png */; };
+		A15BDA791F46D35A00786D57 /* input.png in Resources */ = {isa = PBXBuildFile; fileRef = A15BDA731F46D35A00786D57 /* input.png */; };
+		A15BDA7A1F46D35A00786D57 /* last.png in Resources */ = {isa = PBXBuildFile; fileRef = A15BDA741F46D35A00786D57 /* last.png */; };
+		A15BDA7B1F46D35A00786D57 /* output.png in Resources */ = {isa = PBXBuildFile; fileRef = A15BDA751F46D35A00786D57 /* output.png */; };
+		A15BDA7C1F46D35A00786D57 /* prev.png in Resources */ = {isa = PBXBuildFile; fileRef = A15BDA761F46D35A00786D57 /* prev.png */; };
+		A15BDA7D1F46D35A00786D57 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = A15BDA771F46D35A00786D57 /* reload.png */; };
+		A17AE6B31F5E94980084E276 /* dump_syms in Resources */ = {isa = PBXBuildFile; fileRef = A14A05E61F58FA8F009E8F4F /* dump_syms */; };
+		A18C260D1DD2FBD50052B236 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A18C260C1DD2FBD50052B236 /* main.m */; };
+		A18C26101DD2FBD50052B236 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A18C260F1DD2FBD50052B236 /* AppDelegate.m */; };
+		A18C26131DD2FBD50052B236 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18C26121DD2FBD50052B236 /* ViewController.m */; };
+		A18C26161DD2FBD50052B236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18C26141DD2FBD50052B236 /* Main.storyboard */; };
+		A18C26181DD2FBD50052B236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18C26171DD2FBD50052B236 /* Assets.xcassets */; };
+		A18C261B1DD2FBD50052B236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18C26191DD2FBD50052B236 /* LaunchScreen.storyboard */; };
+		A1AB26691F305DD700ED5615 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AB26681F305DD700ED5615 /* AVFoundation.framework */; };
+		A1AB266E1F307F5A00ED5615 /* OverlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AB266D1F307F5A00ED5615 /* OverlayButton.m */; };
+		A1AB26741F30870400ED5615 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AB26731F30870400ED5615 /* AssetsLibrary.framework */; };
+		A1C07A3B1F4A98F2009F6A0F /* setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1C07A3A1F4A98F2009F6A0F /* setting.plist */; };
+		A1C07A3F1F4AB9C7009F6A0F /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C07A3E1F4AB9C7009F6A0F /* setting.png */; };
+		A1C07A471F4ABECB009F6A0F /* new_down.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C07A401F4ABECB009F6A0F /* new_down.png */; };
+		A1C07A481F4ABECB009F6A0F /* new_edit.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C07A411F4ABECB009F6A0F /* new_edit.png */; };
+		A1C07A491F4ABECB009F6A0F /* new_hide.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C07A421F4ABECB009F6A0F /* new_hide.png */; };
+		A1C07A4A1F4ABECB009F6A0F /* new_next.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C07A431F4ABECB009F6A0F /* new_next.png */; };
+		A1C07A4B1F4ABECB009F6A0F /* new_prev.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C07A441F4ABECB009F6A0F /* new_prev.png */; };
+		A1C07A4C1F4ABECB009F6A0F /* new_reload.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C07A451F4ABECB009F6A0F /* new_reload.png */; };
+		A1C07A4D1F4ABECB009F6A0F /* new_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C07A461F4ABECB009F6A0F /* new_setting.png */; };
+		A1C07A4F1F4AC98E009F6A0F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C07A4E1F4AC98E009F6A0F /* AdSupport.framework */; };
+		A1E5BD5D1F4D1D57007DC542 /* MCTouchDotBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E5BD5C1F4D1D57007DC542 /* MCTouchDotBoardView.m */; };
+		A1E8C2F01F396C2000782CAA /* MCTouchDotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E8C2EF1F396C2000782CAA /* MCTouchDotViewController.m */; };
+		A1E8C2FA1F39728C00782CAA /* ButtonDown.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E8C2F71F39728C00782CAA /* ButtonDown.png */; };
+		A1E8C2FB1F39728C00782CAA /* ButtonUp.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E8C2F81F39728C00782CAA /* ButtonUp.png */; };
+		A1E8C2FC1F39728C00782CAA /* ShowButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E8C2F91F39728C00782CAA /* ShowButton.png */; };
+		A1E8C2FF1F39735D00782CAA /* MCInfoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E8C2FE1F39735D00782CAA /* MCInfoObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A14A05931F57E5F4009E8F4F /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		A14A05941F57E5F4009E8F4F /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		A14A05951F57E5F4009E8F4F /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		A14A05961F57E5F4009E8F4F /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		A14A05971F57E5F4009E8F4F /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		A14A05981F57E5F4009E8F4F /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		A14A05991F57E5F4009E8F4F /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		A14A05A11F57E709009E8F4F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A14A05A31F57E711009E8F4F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A14A05A51F57E719009E8F4F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A14A05A71F57E725009E8F4F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A14A05A91F57E72E009E8F4F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A14A05AB1F57E778009E8F4F /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = ThirdParty/Firebase.h; sourceTree = "<group>"; };
+		A14A05AE1F57EB8A009E8F4F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A14A05B11F57ECAF009E8F4F /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = "<group>"; };
+		A14A05B21F57ECAF009E8F4F /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		A14A05D11F58F993009E8F4F /* customwebview-85cbe-firebase-crashreporting-qs4lf-ab0a2b4f91.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "customwebview-85cbe-firebase-crashreporting-qs4lf-ab0a2b4f91.json"; sourceTree = "<group>"; };
+		A14A05E51F58FA8F009E8F4F /* batch-upload */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "batch-upload"; sourceTree = "<group>"; };
+		A14A05E61F58FA8F009E8F4F /* dump_syms */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dump_syms; sourceTree = "<group>"; };
+		A14A05E71F58FA8F009E8F4F /* extract-keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "extract-keys"; sourceTree = "<group>"; };
+		A14A05E81F58FA8F009E8F4F /* FirebaseCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCrash.framework; sourceTree = "<group>"; };
+		A14A05E91F58FA8F009E8F4F /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		A14A05EA1F58FA8F009E8F4F /* upload-sym */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-sym"; sourceTree = "<group>"; };
+		A14A05EB1F58FA8F009E8F4F /* upload-sym-util.bash */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "upload-sym-util.bash"; sourceTree = "<group>"; };
+		A14A05EC1F58FA8F009E8F4F /* upload-sym.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-sym.sh"; sourceTree = "<group>"; };
+		A15BDA671F42EF1000786D57 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		A15BDA681F42EF1000786D57 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		A15BDA691F42EF1000786D57 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		A15BDA6C1F457F8100786D57 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A15BDA721F46D35A00786D57 /* hide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hide.png; path = CustomWebView/Image/hide.png; sourceTree = "<group>"; };
+		A15BDA731F46D35A00786D57 /* input.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = input.png; path = CustomWebView/Image/input.png; sourceTree = "<group>"; };
+		A15BDA741F46D35A00786D57 /* last.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = last.png; path = CustomWebView/Image/last.png; sourceTree = "<group>"; };
+		A15BDA751F46D35A00786D57 /* output.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = output.png; path = CustomWebView/Image/output.png; sourceTree = "<group>"; };
+		A15BDA761F46D35A00786D57 /* prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prev.png; path = CustomWebView/Image/prev.png; sourceTree = "<group>"; };
+		A15BDA771F46D35A00786D57 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reload.png; path = CustomWebView/Image/reload.png; sourceTree = "<group>"; };
+		A18C26081DD2FBD50052B236 /* CustomWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18C260C1DD2FBD50052B236 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A18C260E1DD2FBD50052B236 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A18C260F1DD2FBD50052B236 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A18C26111DD2FBD50052B236 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A18C26121DD2FBD50052B236 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A18C26151DD2FBD50052B236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A18C26171DD2FBD50052B236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A18C261A1DD2FBD50052B236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A18C261C1DD2FBD50052B236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1AB26661F3032FC00ED5615 /* CustomWebView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomWebView.entitlements; sourceTree = "<group>"; };
+		A1AB26681F305DD700ED5615 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A1AB266C1F307F5A00ED5615 /* OverlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayButton.h; sourceTree = "<group>"; };
+		A1AB266D1F307F5A00ED5615 /* OverlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayButton.m; sourceTree = "<group>"; };
+		A1AB26731F30870400ED5615 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A1C07A3A1F4A98F2009F6A0F /* setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = setting.plist; sourceTree = "<group>"; };
+		A1C07A3E1F4AB9C7009F6A0F /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = setting.png; path = CustomWebView/Image/setting.png; sourceTree = "<group>"; };
+		A1C07A401F4ABECB009F6A0F /* new_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_down.png; path = CustomWebView/Image/new_down.png; sourceTree = "<group>"; };
+		A1C07A411F4ABECB009F6A0F /* new_edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_edit.png; path = CustomWebView/Image/new_edit.png; sourceTree = "<group>"; };
+		A1C07A421F4ABECB009F6A0F /* new_hide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_hide.png; path = CustomWebView/Image/new_hide.png; sourceTree = "<group>"; };
+		A1C07A431F4ABECB009F6A0F /* new_next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_next.png; path = CustomWebView/Image/new_next.png; sourceTree = "<group>"; };
+		A1C07A441F4ABECB009F6A0F /* new_prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_prev.png; path = CustomWebView/Image/new_prev.png; sourceTree = "<group>"; };
+		A1C07A451F4ABECB009F6A0F /* new_reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_reload.png; path = CustomWebView/Image/new_reload.png; sourceTree = "<group>"; };
+		A1C07A461F4ABECB009F6A0F /* new_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new_setting.png; path = CustomWebView/Image/new_setting.png; sourceTree = "<group>"; };
+		A1C07A4E1F4AC98E009F6A0F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		A1E5BD5B1F4D1D57007DC542 /* MCTouchDotBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTouchDotBoardView.h; sourceTree = "<group>"; };
+		A1E5BD5C1F4D1D57007DC542 /* MCTouchDotBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTouchDotBoardView.m; sourceTree = "<group>"; };
+		A1E8C2EE1F396C2000782CAA /* MCTouchDotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTouchDotViewController.h; sourceTree = "<group>"; };
+		A1E8C2EF1F396C2000782CAA /* MCTouchDotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTouchDotViewController.m; sourceTree = "<group>"; };
+		A1E8C2F11F396C5A00782CAA /* Touch_Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Touch_Define.h; sourceTree = "<group>"; };
+		A1E8C2F21F396C5A00782CAA /* Touch_ENUM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Touch_ENUM.h; sourceTree = "<group>"; };
+		A1E8C2F31F396CF400782CAA /* Constant_m.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant_m.h; sourceTree = "<group>"; };
+		A1E8C2F41F396D2D00782CAA /* ConstantDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantDefine.h; sourceTree = "<group>"; };
+		A1E8C2F51F396D4300782CAA /* ConstantEnumList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantEnumList.h; sourceTree = "<group>"; };
+		A1E8C2F71F39728C00782CAA /* ButtonDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonDown.png; path = CustomWebView/Image/ButtonDown.png; sourceTree = "<group>"; };
+		A1E8C2F81F39728C00782CAA /* ButtonUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonUp.png; path = CustomWebView/Image/ButtonUp.png; sourceTree = "<group>"; };
+		A1E8C2F91F39728C00782CAA /* ShowButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShowButton.png; path = CustomWebView/Image/ShowButton.png; sourceTree = "<group>"; };
+		A1E8C2FD1F39735D00782CAA /* MCInfoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCInfoObject.h; sourceTree = "<group>"; };
+		A1E8C2FE1F39735D00782CAA /* MCInfoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCInfoObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A18C26051DD2FBD50052B236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14A05AA1F57E72E009E8F4F /* libsqlite3.tbd in Frameworks */,
+				A14A05A81F57E725009E8F4F /* libc++.tbd in Frameworks */,
+				A14A05A61F57E719009E8F4F /* SystemConfiguration.framework in Frameworks */,
+				A14A05B31F57ECAF009E8F4F /* FirebaseMessaging.framework in Frameworks */,
+				A14A05A41F57E711009E8F4F /* Security.framework in Frameworks */,
+				A14A05A21F57E709009E8F4F /* CFNetwork.framework in Frameworks */,
+				A14A059E1F57E5F4009E8F4F /* FirebaseNanoPB.framework in Frameworks */,
+				A14A05F11F58FA8F009E8F4F /* Protobuf.framework in Frameworks */,
+				A1C07A4F1F4AC98E009F6A0F /* AdSupport.framework in Frameworks */,
+				A14A05A01F57E5F4009E8F4F /* nanopb.framework in Frameworks */,
+				A15BDA6D1F457F8100786D57 /* WebKit.framework in Frameworks */,
+				A14A059B1F57E5F4009E8F4F /* FirebaseCore.framework in Frameworks */,
+				A14A059D1F57E5F4009E8F4F /* FirebaseInstanceID.framework in Frameworks */,
+				A1AB26741F30870400ED5615 /* AssetsLibrary.framework in Frameworks */,
+				A14A059C1F57E5F4009E8F4F /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				A14A05F01F58FA8F009E8F4F /* FirebaseCrash.framework in Frameworks */,
+				A1AB26691F305DD700ED5615 /* AVFoundation.framework in Frameworks */,
+				A14A059A1F57E5F4009E8F4F /* FirebaseAnalytics.framework in Frameworks */,
+				A14A059F1F57E5F4009E8F4F /* GoogleToolboxForMac.framework in Frameworks */,
+				A14A05B41F57ECAF009E8F4F /* Protobuf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A14A05911F57E5C8009E8F4F /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				A14A05E41F58FA8F009E8F4F /* Crash */,
+				A14A05B01F57ECAF009E8F4F /* Messaging */,
+				A14A05AB1F57E778009E8F4F /* Firebase.h */,
+				A14A05921F57E5F4009E8F4F /* Analytics */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		A14A05921F57E5F4009E8F4F /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				A14A05931F57E5F4009E8F4F /* FirebaseAnalytics.framework */,
+				A14A05941F57E5F4009E8F4F /* FirebaseCore.framework */,
+				A14A05951F57E5F4009E8F4F /* FirebaseCoreDiagnostics.framework */,
+				A14A05961F57E5F4009E8F4F /* FirebaseInstanceID.framework */,
+				A14A05971F57E5F4009E8F4F /* FirebaseNanoPB.framework */,
+				A14A05981F57E5F4009E8F4F /* GoogleToolboxForMac.framework */,
+				A14A05991F57E5F4009E8F4F /* nanopb.framework */,
+			);
+			name = Analytics;
+			path = ThirdParty/Analytics;
+			sourceTree = "<group>";
+		};
+		A14A05B01F57ECAF009E8F4F /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				A14A05B11F57ECAF009E8F4F /* FirebaseMessaging.framework */,
+				A14A05B21F57ECAF009E8F4F /* Protobuf.framework */,
+			);
+			name = Messaging;
+			path = ThirdParty/Messaging;
+			sourceTree = "<group>";
+		};
+		A14A05E41F58FA8F009E8F4F /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				A14A05E51F58FA8F009E8F4F /* batch-upload */,
+				A14A05E61F58FA8F009E8F4F /* dump_syms */,
+				A14A05E71F58FA8F009E8F4F /* extract-keys */,
+				A14A05E81F58FA8F009E8F4F /* FirebaseCrash.framework */,
+				A14A05E91F58FA8F009E8F4F /* Protobuf.framework */,
+				A14A05EA1F58FA8F009E8F4F /* upload-sym */,
+				A14A05EB1F58FA8F009E8F4F /* upload-sym-util.bash */,
+				A14A05EC1F58FA8F009E8F4F /* upload-sym.sh */,
+			);
+			name = Crash;
+			path = ThirdParty/Crash;
+			sourceTree = "<group>";
+		};
+		A18C25FF1DD2FBD50052B236 = {
+			isa = PBXGroup;
+			children = (
+				A14A05D11F58F993009E8F4F /* customwebview-85cbe-firebase-crashreporting-qs4lf-ab0a2b4f91.json */,
+				A14A05AE1F57EB8A009E8F4F /* GoogleService-Info.plist */,
+				A14A05911F57E5C8009E8F4F /* ThirdParty */,
+				A1C07A3A1F4A98F2009F6A0F /* setting.plist */,
+				A1E8C2F61F39728400782CAA /* Image */,
+				A18C260A1DD2FBD50052B236 /* CustomWebView */,
+				A18C26091DD2FBD50052B236 /* Products */,
+				A1AB26671F305DD700ED5615 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A18C26091DD2FBD50052B236 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A18C26081DD2FBD50052B236 /* CustomWebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A18C260A1DD2FBD50052B236 /* CustomWebView */ = {
+			isa = PBXGroup;
+			children = (
+				A1E8C2FD1F39735D00782CAA /* MCInfoObject.h */,
+				A1E8C2FE1F39735D00782CAA /* MCInfoObject.m */,
+				A1E8C2F31F396CF400782CAA /* Constant_m.h */,
+				A1E8C2F41F396D2D00782CAA /* ConstantDefine.h */,
+				A1E8C2F51F396D4300782CAA /* ConstantEnumList.h */,
+				A1AB266C1F307F5A00ED5615 /* OverlayButton.h */,
+				A1AB266D1F307F5A00ED5615 /* OverlayButton.m */,
+				A1AB26661F3032FC00ED5615 /* CustomWebView.entitlements */,
+				A18C260E1DD2FBD50052B236 /* AppDelegate.h */,
+				A18C260F1DD2FBD50052B236 /* AppDelegate.m */,
+				A1E8C2F11F396C5A00782CAA /* Touch_Define.h */,
+				A1E8C2F21F396C5A00782CAA /* Touch_ENUM.h */,
+				A1E8C2EE1F396C2000782CAA /* MCTouchDotViewController.h */,
+				A1E8C2EF1F396C2000782CAA /* MCTouchDotViewController.m */,
+				A1E5BD5B1F4D1D57007DC542 /* MCTouchDotBoardView.h */,
+				A1E5BD5C1F4D1D57007DC542 /* MCTouchDotBoardView.m */,
+				A18C26111DD2FBD50052B236 /* ViewController.h */,
+				A18C26121DD2FBD50052B236 /* ViewController.m */,
+				A15BDA671F42EF1000786D57 /* TableViewController.h */,
+				A15BDA681F42EF1000786D57 /* TableViewController.m */,
+				A15BDA691F42EF1000786D57 /* TableViewController.xib */,
+				A18C26141DD2FBD50052B236 /* Main.storyboard */,
+				A18C26171DD2FBD50052B236 /* Assets.xcassets */,
+				A18C26191DD2FBD50052B236 /* LaunchScreen.storyboard */,
+				A18C261C1DD2FBD50052B236 /* Info.plist */,
+				A18C260B1DD2FBD50052B236 /* Supporting Files */,
+			);
+			path = CustomWebView;
+			sourceTree = "<group>";
+		};
+		A18C260B1DD2FBD50052B236 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A18C260C1DD2FBD50052B236 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1AB26671F305DD700ED5615 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A14A05A91F57E72E009E8F4F /* libsqlite3.tbd */,
+				A14A05A71F57E725009E8F4F /* libc++.tbd */,
+				A14A05A51F57E719009E8F4F /* SystemConfiguration.framework */,
+				A14A05A31F57E711009E8F4F /* Security.framework */,
+				A14A05A11F57E709009E8F4F /* CFNetwork.framework */,
+				A1C07A4E1F4AC98E009F6A0F /* AdSupport.framework */,
+				A15BDA6C1F457F8100786D57 /* WebKit.framework */,
+				A1AB26731F30870400ED5615 /* AssetsLibrary.framework */,
+				A1AB26681F305DD700ED5615 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1E8C2F61F39728400782CAA /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				A1C07A401F4ABECB009F6A0F /* new_down.png */,
+				A1C07A411F4ABECB009F6A0F /* new_edit.png */,
+				A1C07A421F4ABECB009F6A0F /* new_hide.png */,
+				A1C07A431F4ABECB009F6A0F /* new_next.png */,
+				A1C07A441F4ABECB009F6A0F /* new_prev.png */,
+				A1C07A451F4ABECB009F6A0F /* new_reload.png */,
+				A1C07A461F4ABECB009F6A0F /* new_setting.png */,
+				A1C07A3E1F4AB9C7009F6A0F /* setting.png */,
+				A15BDA721F46D35A00786D57 /* hide.png */,
+				A15BDA731F46D35A00786D57 /* input.png */,
+				A15BDA741F46D35A00786D57 /* last.png */,
+				A15BDA751F46D35A00786D57 /* output.png */,
+				A15BDA761F46D35A00786D57 /* prev.png */,
+				A15BDA771F46D35A00786D57 /* reload.png */,
+				A1E8C2F71F39728C00782CAA /* ButtonDown.png */,
+				A1E8C2F81F39728C00782CAA /* ButtonUp.png */,
+				A1E8C2F91F39728C00782CAA /* ShowButton.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A18C26071DD2FBD50052B236 /* CustomWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A18C261F1DD2FBD50052B236 /* Build configuration list for PBXNativeTarget "CustomWebView" */;
+			buildPhases = (
+				A18C26041DD2FBD50052B236 /* Sources */,
+				A18C26051DD2FBD50052B236 /* Frameworks */,
+				A18C26061DD2FBD50052B236 /* Resources */,
+				A14A05D01F58F82A009E8F4F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomWebView;
+			productName = CustomWebView;
+			productReference = A18C26081DD2FBD50052B236 /* CustomWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A18C26001DD2FBD50052B236 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = AndyChen;
+				TargetAttributes = {
+					A18C26071DD2FBD50052B236 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3225266GV6;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A18C26031DD2FBD50052B236 /* Build configuration list for PBXProject "CustomWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A18C25FF1DD2FBD50052B236;
+			productRefGroup = A18C26091DD2FBD50052B236 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A18C26071DD2FBD50052B236 /* CustomWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A18C26061DD2FBD50052B236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E8C2FC1F39728C00782CAA /* ShowButton.png in Resources */,
+				A15BDA7D1F46D35A00786D57 /* reload.png in Resources */,
+				A15BDA7A1F46D35A00786D57 /* last.png in Resources */,
+				A18C261B1DD2FBD50052B236 /* LaunchScreen.storyboard in Resources */,
+				A18C26181DD2FBD50052B236 /* Assets.xcassets in Resources */,
+				A15BDA6B1F42EF1000786D57 /* TableViewController.xib in Resources */,
+				A1E8C2FA1F39728C00782CAA /* ButtonDown.png in Resources */,
+				A1C07A4D1F4ABECB009F6A0F /* new_setting.png in Resources */,
+				A14A05ED1F58FA8F009E8F4F /* batch-upload in Resources */,
+				A15BDA7B1F46D35A00786D57 /* output.png in Resources */,
+				A1C07A4A1F4ABECB009F6A0F /* new_next.png in Resources */,
+				A1C07A3F1F4AB9C7009F6A0F /* setting.png in Resources */,
+				A15BDA781F46D35A00786D57 /* hide.png in Resources */,
+				A1C07A4B1F4ABECB009F6A0F /* new_prev.png in Resources */,
+				A14A05D21F58F993009E8F4F /* customwebview-85cbe-firebase-crashreporting-qs4lf-ab0a2b4f91.json in Resources */,
+				A15BDA7C1F46D35A00786D57 /* prev.png in Resources */,
+				A17AE6B31F5E94980084E276 /* dump_syms in Resources */,
+				A14A05F31F58FA8F009E8F4F /* upload-sym-util.bash in Resources */,
+				A1C07A4C1F4ABECB009F6A0F /* new_reload.png in Resources */,
+				A18C26161DD2FBD50052B236 /* Main.storyboard in Resources */,
+				A1E8C2FB1F39728C00782CAA /* ButtonUp.png in Resources */,
+				A15BDA791F46D35A00786D57 /* input.png in Resources */,
+				A14A05F21F58FA8F009E8F4F /* upload-sym in Resources */,
+				A1C07A3B1F4A98F2009F6A0F /* setting.plist in Resources */,
+				A14A05AF1F57EB8A009E8F4F /* GoogleService-Info.plist in Resources */,
+				A14A05EF1F58FA8F009E8F4F /* extract-keys in Resources */,
+				A1C07A471F4ABECB009F6A0F /* new_down.png in Resources */,
+				A1C07A491F4ABECB009F6A0F /* new_hide.png in Resources */,
+				A1C07A481F4ABECB009F6A0F /* new_edit.png in Resources */,
+				A14A05F41F58FA8F009E8F4F /* upload-sym.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A14A05D01F58F82A009E8F4F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Replace this with the GOOGLE_APP_ID from your GoogleService-Info.plist file\nGOOGLE_APP_ID=1:106653215776:ios:2f932e840ea63a6b\n\n# Replace the /Path/To/ServiceAccount.json with the path to the key you just downloaded\n${PROJECT_DIR}/ThirdParty/Crash/upload-sym \"customwebview-85cbe-firebase-crashreporting-qs4lf-ab0a2b4f91.json\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A18C26041DD2FBD50052B236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E8C2FF1F39735D00782CAA /* MCInfoObject.m in Sources */,
+				A1AB266E1F307F5A00ED5615 /* OverlayButton.m in Sources */,
+				A18C26131DD2FBD50052B236 /* ViewController.m in Sources */,
+				A18C26101DD2FBD50052B236 /* AppDelegate.m in Sources */,
+				A1E8C2F01F396C2000782CAA /* MCTouchDotViewController.m in Sources */,
+				A1E5BD5D1F4D1D57007DC542 /* MCTouchDotBoardView.m in Sources */,
+				A15BDA6A1F42EF1000786D57 /* TableViewController.m in Sources */,
+				A18C260D1DD2FBD50052B236 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A18C26141DD2FBD50052B236 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A18C26151DD2FBD50052B236 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A18C26191DD2FBD50052B236 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A18C261A1DD2FBD50052B236 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A18C261D1DD2FBD50052B236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A18C261E1DD2FBD50052B236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A18C26201DD2FBD50052B236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CustomWebView/CustomWebView.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: CHEN PO YUAN (4QRAW6LPU5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3225266GV6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty/Analytics",
+					"$(PROJECT_DIR)/ThirdParty/AdMob",
+					"$(PROJECT_DIR)/ThirdParty/Auth",
+					"$(PROJECT_DIR)/ThirdParty/Crash",
+					"$(PROJECT_DIR)/ThirdParty/Database",
+					"$(PROJECT_DIR)/ThirdParty/DynamicLinks",
+					"$(PROJECT_DIR)/ThirdParty/Invites",
+					"$(PROJECT_DIR)/ThirdParty/Messaging",
+					"$(PROJECT_DIR)/ThirdParty/Performance",
+					"$(PROJECT_DIR)/ThirdParty/RemoteConfig",
+					"$(PROJECT_DIR)/ThirdParty/Storage",
+				);
+				INFOPLIST_FILE = CustomWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brownie.dev.nonTitle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A18C26211DD2FBD50052B236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CustomWebView/CustomWebView.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: CHEN PO YUAN (4QRAW6LPU5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3225266GV6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty/Analytics",
+					"$(PROJECT_DIR)/ThirdParty/AdMob",
+					"$(PROJECT_DIR)/ThirdParty/Auth",
+					"$(PROJECT_DIR)/ThirdParty/Crash",
+					"$(PROJECT_DIR)/ThirdParty/Database",
+					"$(PROJECT_DIR)/ThirdParty/DynamicLinks",
+					"$(PROJECT_DIR)/ThirdParty/Invites",
+					"$(PROJECT_DIR)/ThirdParty/Messaging",
+					"$(PROJECT_DIR)/ThirdParty/Performance",
+					"$(PROJECT_DIR)/ThirdParty/RemoteConfig",
+					"$(PROJECT_DIR)/ThirdParty/Storage",
+				);
+				INFOPLIST_FILE = CustomWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brownie.dev.nonTitle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A18C26031DD2FBD50052B236 /* Build configuration list for PBXProject "CustomWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18C261D1DD2FBD50052B236 /* Debug */,
+				A18C261E1DD2FBD50052B236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A18C261F1DD2FBD50052B236 /* Build configuration list for PBXNativeTarget "CustomWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18C26201DD2FBD50052B236 /* Debug */,
+				A18C26211DD2FBD50052B236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A18C26001DD2FBD50052B236 /* Project object */;
+}
