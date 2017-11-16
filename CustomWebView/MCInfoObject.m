@@ -16,6 +16,7 @@
     dispatch_once(&pred, ^{
         _sharedObject = [[self alloc] init];
     });
+    //test
     return _sharedObject;
 }
 @end
